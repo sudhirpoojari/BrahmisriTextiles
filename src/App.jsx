@@ -1,21 +1,28 @@
 import React, { useState } from "react";
+import sari1 from '../image/sari.jpg';
+import sari2 from '../image/sari2.jpg';
+import sari3 from '../image/sari3.jpg';
+import sari4 from '../image/sari4.jpg';
 
+import bc1 from '../image/bc1.jpg';
+import bc2 from '../image/bc2.jpg';
+import bc3 from '../image/bc3.jpg';
+import bc5 from '../image/bc5.jpg';
+import bc6 from '../image/bc6.jpg';
 
-
-    const slides = [
-  { id: 1, url: '/image/sari.jpg', title: 'Sari1' },
-  { id: 2, url: '/image/sari2.jpg', title: 'Sari 2' },
-  { id: 3, url: '/image/sari3.jpg', title: 'Sari 3' },
-  { id: 4, url: '/image/sari4.jpg', title: 'Sari 4' },
-
+const slides = [
+  { id: 1, url: sari1, title: 'Sari1' },
+  { id: 2, url: sari2, title: 'Sari 2' },
+  { id: 3, url: sari3, title: 'Sari 3' },
+  { id: 4, url: sari4, title: 'Sari 4' },
 ];
 
 const bestcollection = [
-    { id: 1, url : '/image/bc1.jpg', title : 'Mysore Silks'   },
-    { id: 2, url : '/image/bc2.jpg', title : 'Mysore Silks'   },
-    { id: 3, url : '/image/bc3.jpg', title : 'Mysore Silks'   },
-    { id: 4, url : '/image/bc5.jpg', title : 'Mysore Silks'   },
-    { id: 5, url : '/image/bc6.jpg', title : 'Mysore Silks'   }, 
+    { id: 1, url : bc1, title : 'Mysore Silks'   },
+    { id: 2, url : bc2, title : 'Mysore Silks'   },
+    { id: 3, url : bc3, title : 'Mysore Silks'   },
+    { id: 4, url : bc5, title : 'Mysore Silks'   },
+    { id: 5, url : bc6, title : 'Mysore Silks'   }, 
 ];
 
 
